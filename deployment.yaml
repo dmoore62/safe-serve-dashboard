@@ -1,0 +1,40 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  labels:
+    app: safe-serve-dashboard
+  name: safe-serve-dashboard
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: safe-serve-dashboard
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+      labels:
+        app: safe-serve-dashboard
+    spec:
+      containers:
+      - image: safe-serve-dashboard:latest
+        name: safe-serve-dashboard
+        imagePullPolicy: IfNotPresent
+        ports:
+        - containerPort: 3000
+---
+kind: Service
+apiVersion: v1
+metadata:
+  name: safe-serve-dashboard
+spec:
+  type: NodePort
+  ports:
+    - port: 3000
+      targetPort: 3000
+      protocol: TCP
+      nodePort: 31000
+  selector:
+    app: safe-serve-dashboard
+

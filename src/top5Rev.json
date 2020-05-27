@@ -1,0 +1,28 @@
+[
+	{
+		"location": "5671 East Town",
+		"revenue": "$39,341",
+		"ppa": "$25.34",
+		"foodcost": "34%"
+	}, {
+		"location": "223 E.South Blvd",
+		"revenue": "$34,040",
+		"ppa": "$22.37",
+		"foodcost": "27%"
+	}, {
+		"location": "111 Main St",
+		"revenue": "$29,000",
+		"ppa": "$17.34",
+		"foodcost": "40%"
+	}, {
+		"location": "1313 8th Street",
+		"revenue": "$13,340",
+		"ppa": "$15.34",
+		"foodcost": "47%"
+	}, {
+		"location": "97 Elm St.",
+		"revenue": "$9,000",
+		"ppa": "$19.34",
+		"foodcost": "34%"
+	}
+]

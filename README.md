@@ -1,3 +1,8 @@
+## Running this!
+
+`docker build -t safe-serve-dashboard:v1`
+`docker run -p 3000:<some local port> safe-serve-dashboard:v1`
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

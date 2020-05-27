@@ -1,0 +1,28 @@
+[
+	{
+		"location": "111 Main St",
+		"mwt": "12 mins",
+		"score": "4.3",
+		"ranking": 1
+	}, {
+		"location": "5671 East Town",
+		"mwt": "34 mins",
+		"score": "3.9",
+		"ranking": 2
+	}, {
+		"location": "223 E.South Blvd",
+		"mwt": "4 mins",
+		"score": "2.9",
+		"ranking": 3
+	}, {
+		"location": "97 Elm St.",
+		"mwt": "14 mins",
+		"score": "2.1",
+		"ranking": 4
+	}, {
+		"location": "1313 8th Street",
+		"mwt": "39 mins",
+		"score": "1.9",
+		"ranking": 5
+	}
+]
